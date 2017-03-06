@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0453D51E6D7A2F0004E30D /* BoxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0453CD1E6D7A2F0004E30D /* BoxesViewController.swift */; };
+		ED0453D61E6D7A2F0004E30D /* BoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0453CE1E6D7A2F0004E30D /* BoxViewController.swift */; };
+		ED0453D71E6D7A2F0004E30D /* ChainBoxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0453CF1E6D7A2F0004E30D /* ChainBoxesViewController.swift */; };
+		ED0453D81E6D7A2F0004E30D /* CollisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0453D01E6D7A2F0004E30D /* CollisionViewController.swift */; };
+		ED0453D91E6D7A2F0004E30D /* DriftingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0453D11E6D7A2F0004E30D /* DriftingViewController.swift */; };
+		ED0453DA1E6D7A2F0004E30D /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0453D21E6D7A2F0004E30D /* MainTableViewController.swift */; };
+		ED0453DB1E6D7A2F0004E30D /* MotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0453D31E6D7A2F0004E30D /* MotionViewController.swift */; };
+		ED0453DC1E6D7A2F0004E30D /* StarbucksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0453D41E6D7A2F0004E30D /* StarbucksViewController.swift */; };
 		EDBE45A01E6D71B50016A845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE459F1E6D71B50016A845 /* AppDelegate.swift */; };
-		EDBE45A21E6D71B50016A845 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE45A11E6D71B50016A845 /* ViewController.swift */; };
 		EDBE45A51E6D71B50016A845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBE45A31E6D71B50016A845 /* Main.storyboard */; };
 		EDBE45A71E6D71B50016A845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBE45A61E6D71B50016A845 /* Assets.xcassets */; };
 		EDBE45AA1E6D71B50016A845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBE45A81E6D71B50016A845 /* LaunchScreen.storyboard */; };
+		EDBE45B31E6D72060016A845 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBE45B21E6D72060016A845 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED0453CD1E6D7A2F0004E30D /* BoxesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxesViewController.swift; sourceTree = "<group>"; };
+		ED0453CE1E6D7A2F0004E30D /* BoxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxViewController.swift; sourceTree = "<group>"; };
+		ED0453CF1E6D7A2F0004E30D /* ChainBoxesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainBoxesViewController.swift; sourceTree = "<group>"; };
+		ED0453D01E6D7A2F0004E30D /* CollisionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionViewController.swift; sourceTree = "<group>"; };
+		ED0453D11E6D7A2F0004E30D /* DriftingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriftingViewController.swift; sourceTree = "<group>"; };
+		ED0453D21E6D7A2F0004E30D /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		ED0453D31E6D7A2F0004E30D /* MotionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionViewController.swift; sourceTree = "<group>"; };
+		ED0453D41E6D7A2F0004E30D /* StarbucksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarbucksViewController.swift; sourceTree = "<group>"; };
 		EDBE459C1E6D71B50016A845 /* CoremotionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoremotionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBE459F1E6D71B50016A845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDBE45A11E6D71B50016A845 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDBE45A41E6D71B50016A845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDBE45A61E6D71B50016A845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDBE45A91E6D71B50016A845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDBE45AB1E6D71B50016A845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDBE45B21E6D72060016A845 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDBE45B31E6D72060016A845 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,7 @@
 			children = (
 				EDBE459E1E6D71B50016A845 /* CoremotionDemo */,
 				EDBE459D1E6D71B50016A845 /* Products */,
+				EDBE45B11E6D72050016A845 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +72,29 @@
 		EDBE459E1E6D71B50016A845 /* CoremotionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				ED0453CD1E6D7A2F0004E30D /* BoxesViewController.swift */,
+				ED0453CE1E6D7A2F0004E30D /* BoxViewController.swift */,
+				ED0453CF1E6D7A2F0004E30D /* ChainBoxesViewController.swift */,
+				ED0453D01E6D7A2F0004E30D /* CollisionViewController.swift */,
+				ED0453D11E6D7A2F0004E30D /* DriftingViewController.swift */,
+				ED0453D21E6D7A2F0004E30D /* MainTableViewController.swift */,
+				ED0453D31E6D7A2F0004E30D /* MotionViewController.swift */,
+				ED0453D41E6D7A2F0004E30D /* StarbucksViewController.swift */,
 				EDBE459F1E6D71B50016A845 /* AppDelegate.swift */,
-				EDBE45A11E6D71B50016A845 /* ViewController.swift */,
 				EDBE45A31E6D71B50016A845 /* Main.storyboard */,
 				EDBE45A61E6D71B50016A845 /* Assets.xcassets */,
 				EDBE45A81E6D71B50016A845 /* LaunchScreen.storyboard */,
 				EDBE45AB1E6D71B50016A845 /* Info.plist */,
 			);
 			path = CoremotionDemo;
+			sourceTree = "<group>";
+		};
+		EDBE45B11E6D72050016A845 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE45B21E6D72060016A845 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +129,7 @@
 				TargetAttributes = {
 					EDBE459B1E6D71B50016A845 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZHT99R3SEW;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDBE45A21E6D71B50016A845 /* ViewController.swift in Sources */,
+				ED0453D51E6D7A2F0004E30D /* BoxesViewController.swift in Sources */,
+				ED0453D61E6D7A2F0004E30D /* BoxViewController.swift in Sources */,
+				ED0453D91E6D7A2F0004E30D /* DriftingViewController.swift in Sources */,
+				ED0453DA1E6D7A2F0004E30D /* MainTableViewController.swift in Sources */,
+				ED0453D81E6D7A2F0004E30D /* CollisionViewController.swift in Sources */,
 				EDBE45A01E6D71B50016A845 /* AppDelegate.swift in Sources */,
+				ED0453DC1E6D7A2F0004E30D /* StarbucksViewController.swift in Sources */,
+				ED0453D71E6D7A2F0004E30D /* ChainBoxesViewController.swift in Sources */,
+				ED0453DB1E6D7A2F0004E30D /* MotionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHT99R3SEW;
 				INFOPLIST_FILE = CoremotionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lotawei.CoremotionDemo;
@@ -270,6 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHT99R3SEW;
 				INFOPLIST_FILE = CoremotionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lotawei.CoremotionDemo;
@@ -297,6 +340,7 @@
 				EDBE45B01E6D71B50016A845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
